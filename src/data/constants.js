@@ -9,12 +9,14 @@ import todo from "../images/todo.png";
 import insta from "../images/insta.png";
 import twitter from "../images/twitter.png";
 import vfx from "../images/vfx.png";
+import spotify from "../images/spotify.png";
+
 export const Bio = {
     name: "Rabie Houssaini",
     roles: [
       "Software Engineer",
       "iOS Navtive Developer",
-      "Mobile Developer",
+      "Flutter Developer",
       "Programmer",
     ],
     description:
@@ -25,7 +27,7 @@ export const Bio = {
     linkedin: "https://www.linkedin.com/in/rabi3hs/",
    //twitter: "https://twitter.com/RishavChanda",
     insta: "https://www.instagram.com/rishav_chanda/",
-    facebook: "https://www.facebook.com/rishav.chanda.165/",
+    facebook: "https://www.facebook.com/rabii3Hs/",
   };
   
   export const skills = [
@@ -210,6 +212,8 @@ export const Bio = {
         "Firebase",
         "GraphQL",
         "TestFlight",
+        "Appstore Connect",
+        "Github",
       ],
     },
     {
@@ -223,10 +227,12 @@ export const Bio = {
         "Flutter",
         "Dart",
         "NodeJs",
+        "Figma",
         "Firebase",
         "Bloc",
         "GetX",
         "MVVM",
+
       ],
     },
     {
@@ -268,49 +274,52 @@ export const Bio = {
       desc: "I am currently pursuing a Bachelor's degree in  Arts and multimedia at the higher institute of computer science and multimedia of gabes, Bhubaneswar. I have completed 5 semesters and have a 17.58 of 20 . I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Graphic Design, UI/UX and  others. I am also a member of the Tunisian Programming Lovers, VFX isimg and Microsoft Tunisian  Student Clubs , where I am learning and working on exciting projects with a team of talented developers.",
       degree: "Bachelor of Arts and multimedia (BAM)",
     },
+    {
+      id: 1,
+      img: "https://www.ecoles.com.tn/sites/default/files/universite/logo/logo_isimG.jpg",
+      school: "Higher institute of computer science and multimedia of gabes",
+      date: "Oct 2021 - Sep 2025",
+      grade: "-",
+      desc: "I am currently pursuing a Engeneer degree in  Software Engeneering  at the higher institute of computer science and multimedia of gabes",
+      degree: "Software Engeneering",
+    },
    
   ];
   
   export const projects = [
     {
-      id: 9,
-      title: "Todo APP",
+      id: 0,
+      title: "Spotify Clone",
       date: "Jun 2023 - Jul 2023",
-      description:
-        "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
-      image:todo,
+      description: "The Spotify Clone is a native iOS application meticulously crafted using programmatic UIKit (without Storyboard), Swift, and the Spotify API. It seamlessly retrieves tracks, albums, playlists, and categories from the Spotify platform, offering users a comprehensive music browsing experience. Additionally, the app includes a library feature, enabling users to create, update, and delete playlists effortlessly." ,
+      image:spotify,
       tags: [
-        "Docker",
-        "AWS",
-        "DuckDNS",
-        "Eslint",
-        "Husky",
-        "CI/CD",
-        "React Js",
-        "MongoDb",
-        "Node Js",
-        "Express Js",
-        "Redux",
+        "Xcode",
+        "Swift",
+        "IOKit",
+        "API",
+        "MVVM",
       ],
       category: "iOS",
-      github: "https://github.com/rishavchanda/Trackify",
-      webapp: "https://trackify.duckdns.org",
-    },
-    {
-      id: 0,
-      title: "Instagram Clone",
-      date: "Apr 2023 - May 2023",
-      description:
-        "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
-      image:insta,
-      tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
-      category: "Flutter",
-      github: "https://github.com/rishavchanda/Podstream",
-      webapp: "https://podstream.netlify.app/",
-     
+      github: "",
+      webapp: "",
     },
     {
       id: 1,
+      title: "Instagram Clone",
+      date: "Apr 2023 - May 2023",
+      description:
+
+      "The Instagram Clone developed with Flutter is a lightweight mobile application designed to replicate the core functionalities of the original Instagram platform. Stripped of messaging features, this clone offers users a simplified experience focused on photo sharing and social interaction. Users can create accounts, upload photos, add captions, like, comment, and share posts, and follow other users. Built with Flutter's efficiency and flexibility, the Instagram Clone ensures smooth performance and a consistent user interface across both iOS and Android platforms. With its streamlined design, this clone provides users with a familiar social media experience tailored for photo sharing and community engagement.",
+      image:insta,
+      tags: ["Flutter", "Firebase", "Provider",],
+      category: "Flutter",
+      github: "https://github.com/rishavchanda/Podstream",
+      webapp: "",
+     
+    },
+    {
+      id: 2,
       title: "E-Commerce APP",
       date: "Jul 2022 - Sep 2022",
       description:
@@ -329,82 +338,72 @@ export const Bio = {
       webapp: "https://github.com/rabieHs/fullstack-e_commerce-app-flutter-nodeJs-MongoDB",
     },
     {
-      id: 2,
-      title: "Brain Tumor Detection",
-      date: "Jan 2023 - Mar 2023",
+      id: 3,
+      title: "Todo App",
+      date: "OCT 2023 - OCT 2023",
       description:
-        "Preprocessed and augmented the dataset to improve model accuracy, trained the model, created API using model and Python, and used React web app for the project's front end. Achievements: Achieved an accuracy of 99.2% to accurately detect brain tumors from medical images.",
-      image:
-        "https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
-      tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-      category: "machine learning",
-      github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
-      webapp: "https://brain-tumor.netlify.app/",
-      member: [
-        {
-          name: "Rishav Chanda",
-          img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-          linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-          github: "https://github.com/rishavchanda/",
-        },
-        {
-          name: "Upasana Chaudhuri",
-          img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-          linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-          github: "https://github.com/upasana0710",
-        },
-      ],
+
+      "The iOS SwiftUI Todo App is a sleek and intuitive application designed to help users organize their tasks efficiently. Built entirely with SwiftUI, this app offers a modern and responsive user interface for seamless task management. Users can easily add, edit, and delete tasks, prioritize them with customizable tags or categories, and mark them as complete as they progress. With SwiftUI's dynamic capabilities, the app provides real-time updates and smooth transitions, ensuring a delightful user experience. Whether managing personal to-dos or professional tasks, the iOS SwiftUI Todo App is the perfect companion for staying organized and productive on the go.",
+      image:todo,
+      tags: ["iOS", "Swift", "SwiftIO", "Firebase"],
+      category: "iOS",
+      github: "https://github.com/rabieHs/ToDoList-iOS",
+      webapp: "https://github.com/rabieHs/ToDoList-iOS",
     },
     {
-      id: 3,
+      id: 4,
       title: "Music Player APP",
       date: "Dec 2021 - Apr 2022",
       description:
-        "App Is Currently In Playstore 100+ Downloads. This Project proposes an “Expense Tracking App”. Keep track of your personal expenses and compare them to your monthly income with the budget planner. It has Google Drive Cloud API for Backup of User Room Database. Made with Kotlin in MVVM Architecture & Live Data.",
-      image:music,
-      tags: ["Kotlin", "MVVM", "Room Database", "Google Drive Cloud API"],
+
+      "The Flutter Local Music Player App is a versatile mobile application designed to enable users to enjoy their favorite music stored locally on their devices. Developed using Flutter, this app offers a seamless and intuitive user experience across both iOS and Android platforms. Users can easily browse and play their music library, create playlists, shuffle and repeat tracks, and adjust playback settings such as volume and equalizer settings. With Flutter's cross-platform capabilities, the Local Music Player App provides consistent performance and a sleek user interface. Whether at home or on the go, users can immerse themselves in their personal music collection with ease and convenience.",
+       image:music,
+      tags: ["Flutter", "Shared Preferences", "Audio Player",],
       category: "Flutter",
-      github: "https://github.com/rishavchanda/Buckoid-Android-App",
-      webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
+      github: "https://github.com/rabieHs/Music_Player_App",
+      webapp: "https://github.com/rabieHs/Music_Player_App",
     },
     {
-      id: 10,
+      id: 5,
       title: "VFX club APP",
       date: "Jun 2023 - Jul 2023",
       description:
         "A Job Finding App made with React Native, Axios. Users can search for any job coming from API and apply there.",
       image:vfx,
-      tags: ["React Native", "JavaScript", "Axios"],
+      tags: ["Andoid", "Java", "Firebase"],
       category: "Android",
       github: "https://github.com/rishavchanda/Job-finder-App",
       webapp: "https://github.com/rishavchanda/Job-finder-App",
     },
     {
-      id: 4,
+      id: 6,
       title: "Twitter Clone",
       date: "Jul 2021",
       description:
-        "A WhatsApp clone made with React JS, Firebase, and Material UI. It has Phone Authentication, Real-time Database. It has a chat room where users can chat with each other. It has a sidebar where users can see all the chat rooms and can create a new chat room. It has a login page where users can log in with their Google account.",
-      image:twitter,
-      tags: ["React Js", "Firebase", "Firestore", "Node JS"],
+
+      "The Twitter Clone is an iOS application meticulously developed using programmatic UIKit and Swift. This clone faithfully replicates the core features of Twitter, providing users with a seamless and intuitive experience. Leveraging UIKit, the app enables users to compose tweets, view timelines, follow other users, like and retweet posts, and engage in direct messaging. With a clean and modern interface, users can navigate effortlessly through their feeds and interact with content just like on the original Twitter platform.",
+            image:twitter,
+      tags: ["iOS", "SwiftUI", "Firebase"],
       category: "iOS",
-      github: "https://github.com/rishavchanda/Whatsapp-Clone-React-Js",
-      webapp: "https://whatsapp-clone-rishav.web.app",
+      github: "https://github.com/rabieHs/Twitter-Clone-IOS-NO-STORYBOARD-UIKIT",
+      webapp: "https://github.com/rabieHs/Twitter-Clone-IOS-NO-STORYBOARD-UIKIT",
     },
+  
     {
-      id: 5,
+      id: 7,
       title: "Solu Dashboard",
       date: "Jun 2021",
       description:
-        " A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
-      image:solu,
-      tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
+
+      "Solu Dashboard is a comprehensive business management application designed to empower entrepreneurs in efficiently managing their enterprises. This intuitive app provides a range of functionalities tailored to meet the diverse needs of businesses. Entrepreneurs can seamlessly monitor their daily, weekly, and monthly income trends, track worker performance, generate and manage invoices, and oversee stock and product inventory. Notably, Solu Dashboard supports multi-branch management, enabling entrepreneurs to oversee multiple locations or branches of their business from a single platform. With its user-friendly interface and robust features, Solu Dashboard streamlines business operations, facilitating informed decision-making and enhancing overall productivity.",
+            image:solu,
+      tags: ["Flutter", "Firebase", "GraphQL", "Riverpod"],
       category: "Flutter",
-      github: "https://github.com/rishavchanda/Todo-Web-App",
-      webapp: "https://rishav-react-todo.netlify.app/",
+      github: "",
+      webapp: "",
     },
     {
-      id: 6,
+      id: 8,
       title: "Wiin",
       date: "Jun 2022",
       description:
@@ -416,7 +415,7 @@ export const Bio = {
       webapp: "https://github.com/rabieHs/wiin-service-Provider-App-flutter",
     },
     {
-      id: 7,
+      id: 9,
       title: "Mindwell",
       date: "Dec 2022 - Mar 2023",
       description:
@@ -428,7 +427,7 @@ export const Bio = {
       webapp: "https://github.com/rabieHs/PFE-Mental-health-App",
     },
     {
-      id: 8,
+      id: 10,
       title: "Chatify",
       date: "May 2022",
       description:
